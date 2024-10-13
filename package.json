@@ -1,0 +1,19 @@
+{
+  "name": "hono-api-vite",
+  "type": "module",
+  "scripts": {
+    "dev": "npm exec vite",
+    "start": "node dist/index.js",
+    "build": "npm exec vite build"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.13.2",
+    "hono": "^4.6.4"
+  },
+  "devDependencies": {
+    "@hono/vite-build": "^1.1.0",
+    "@hono/vite-dev-server": "^0.16.0",
+    "@types/node": "^20.11.17",
+    "vite": "^5.4.8"
+  }
+}
